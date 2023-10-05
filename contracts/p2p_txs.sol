@@ -4,7 +4,7 @@ pragma solidity ^0.8.0;
 contract P2PTransactions {
 
     mapping(address => uint256) public balances;
-    event CheckBalance(string text, uint amount);
+    event CheckBalance(uint amount);
     
     constructor() {}
 
@@ -29,11 +29,8 @@ contract P2PTransactions {
     }
 
     function getUserBalance(address user_account) external returns (uint){
-    
-       string memory data = "User Balance is : ";
        uint user_bal = user_account.balance;
-       emit CheckBalance(data, user_bal );
+       emit CheckBalance(user_bal);
        return (user_bal);
-
     }
 }

@@ -1,0 +1,40 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/ayushraina/Desktop/IDS/testing/bbn-test-p2p-transaction/contracts/p2p_txs.sol": {
+      "lastModificationDate": 1696514586982,
+      "contentHash": "b79c019f698a5840e841aa0087156aed",
+      "sourceName": "contracts/p2p_txs.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "P2PTransactions"
+      ]
+    }
+  }
+}
